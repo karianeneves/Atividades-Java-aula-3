@@ -3,8 +3,8 @@ public class Locacao {
     Cliente clienteLocacao;
 
     public Locacao(Filme filmeAlugado, Cliente clienteLocacao) {
-        this.filmeAlugado = filmeAlugado;
-        this.clienteLocacao = clienteLocacao;
+        filmeAlugado = filmeAlugado;
+        clienteLocacao = clienteLocacao;
     }
 
     public void realizarLocacao() {
@@ -13,4 +13,5 @@ public class Locacao {
         System.out.println("Filme Alugado: " + filmeAlugado.titulo);
         System.out.println("  ");
     }
+
 }
