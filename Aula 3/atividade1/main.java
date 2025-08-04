@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Filme filme1 = new Filme("O Senhor dos Anéis", "Fantasia");
+        Filme filme1 = new Filme("Mundo Encantando", "Fantasia");
         
         Cliente cliente1 = new Cliente("João Pedro", 12345);
         
@@ -12,4 +12,5 @@ public class Main {
         System.out.println();
         locacao1.realizarLocacao();
     }
+
 }
