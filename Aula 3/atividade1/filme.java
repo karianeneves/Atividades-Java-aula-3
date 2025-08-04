@@ -1,15 +1,16 @@
 public class Filme {
-    String titulo;
-    String genero;
+    String Titulo;
+    String Genero;
 
     public Filme(String titulo, String genero) {
-        this.titulo = titulo;
-        this.genero = genero;
+        Titulo = titulo;
+        Genero = genero;
     }
 
     public void exibirDetalhes() {
         System.out.println("Detalhes do Filme:");
-        System.out.println("Título: " + titulo);
-        System.out.println("Gênero: " + genero);
+        System.out.println("Título: " + Titulo);
+        System.out.println("Gênero: " + Genero);
     }
+
 }
